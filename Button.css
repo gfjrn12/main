@@ -1,0 +1,17 @@
+.hover{
+    max-width:400px;
+    height:80px;
+    line-height:80px;
+    margin:20px auto;
+    background-color : #f8bbd0;
+    text-align:center;
+    transition:all 0.8s, color 0.3s 0.3s;
+    color:#504f4f;
+    cursor:pointer;
+}
+.hover:hover{
+    color:#fff;
+}
+.effect:hover{
+    box-shadow:400px 0 0 0 rgba(0,0,0.5) inset;
+}
